@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-6">
             <div className="flex items-center">
-              <img src="/logo.svg" alt="Equity Groups" className="h-10 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Equity Groups" className="h-10 w-auto" />
             </div>
 
             <p className="text-sm leading-relaxed">

@@ -21,7 +21,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center">
-            <img src="/logo.svg" alt="Equity Groups" className="h-8 md:h-10 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Equity Groups" className="h-8 md:h-10 w-auto" />
+
           </Link>
 
 
