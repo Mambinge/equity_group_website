@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  /* Updated Brand Colors from Screenshot */
+  --color-primary: #13515E;         /* Dark Teal from background */
+  --color-primary-light: #1A6B7B;
+  --color-secondary: #BB8E5E;       /* Gold/Bronze from "GROUPS" text */
+  --color-accent: #BB8E5E;
+  --color-text-main: #333333;
+  --color-bg-light: #F8FAFC;
+  
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply text-text-main bg-white font-sans;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-secondary text-white font-semibold rounded-lg hover:bg-secondary/90 transition-all duration-300;
+  }
+  
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-secondary text-secondary font-semibold rounded-lg hover:bg-secondary hover:text-white transition-all duration-300;
+  }
+  
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+}

@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Checkerboard Pattern Icon -->
+  <rect x="0" y="0" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="28" y="0" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="56" y="0" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="86" y="0" width="14" height="14" fill="#BB8E5E"/>
+  
+  <rect x="0" y="28" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="86" y="28" width="14" height="14" fill="#BB8E5E"/>
+  
+  <rect x="0" y="56" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="86" y="56" width="14" height="14" fill="#BB8E5E"/>
+  
+  <rect x="0" y="86" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="28" y="86" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="56" y="86" width="14" height="14" fill="#BB8E5E"/>
+  <rect x="86" y="86" width="14" height="14" fill="#BB8E5E"/>
+  
+  <path d="M30 30H70V38H38V48H65V56H38V65H70V73H30V30Z" fill="#BB8E5E"/>
+</svg>
