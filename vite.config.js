@@ -4,9 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/equity_group_website/',
   plugins: [
     react(),
     tailwindcss(),
   ],
 })
+
 
