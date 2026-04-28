@@ -2,9 +2,9 @@
 
 A premium, high-density corporate website for **Equity Group**, a digital technology partner in Zimbabwe. Built with modern web technologies to deliver a seamless, high-performance user experience.
 
-🚀 **Live Site**: [https://mambinge.github.io/equity_group_website/](https://mambinge.github.io/equity_group_website/)
+**Live Site**: [https://mambinge.github.io/equity_group_website/](https://mambinge.github.io/equity_group_website/)
 
-## ✨ Key Features
+## Key Features
 
 - **Multi-Page Architecture**: Home, About, Services, Products, Portfolio, and Contact pages.
 - **Brand-Aligned Design**: Custom Teal & Gold color palette with official SVG logo and favicon.
@@ -13,7 +13,7 @@ A premium, high-density corporate website for **Equity Group**, a digital techno
 - **Responsive Design**: Fully compatible with Mobile, Tablet, and Desktop displays.
 - **Modern Animations**: Smooth transitions and hover effects using Framer Motion.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Core**: React 19 + Vite 8
 - **Styling**: Tailwind CSS v4
@@ -22,7 +22,7 @@ A premium, high-density corporate website for **Equity Group**, a digital techno
 - **Routing**: React Router (HashRouter for GH Pages compatibility)
 - **Deployment**: GitHub Actions (CI/CD)
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -53,7 +53,7 @@ npm run build
 
 The output will be in the `dist/` folder.
 
-## 🌐 Deployment
+## Deployment
 
 This project is configured for automated deployment to **GitHub Pages** via GitHub Actions.
 

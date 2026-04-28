@@ -15,21 +15,21 @@ const Footer = () => {
             <p className="text-sm leading-relaxed">
               Driving business evolution through innovative digital platforms. We are your preferred digital technology partner in Zimbabwe.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="hover:text-secondary transition-colors"><Linkedin size={20} /></a>
               <a href="#" className="hover:text-secondary transition-colors"><Twitter size={20} /></a>
               <a href="#" className="hover:text-secondary transition-colors"><Facebook size={20} /></a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="text-white font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-4 text-sm">
-              <li><a href="/about" className="hover:text-secondary transition-colors">About Us</a></li>
-              <li><a href="/services" className="hover:text-secondary transition-colors">Our Services</a></li>
-              <li><a href="/products" className="hover:text-secondary transition-colors">Our Products</a></li>
-              <li><a href="/portfolio" className="hover:text-secondary transition-colors">Portfolio</a></li>
+              <li><a href="/equity_group_website/#/about" className="hover:text-secondary transition-colors">About Us</a></li>
+              <li><a href="/equity_group_website/#/services" className="hover:text-secondary transition-colors">Our Services</a></li>
+              <li><a href="/equity_group_website/#/products" className="hover:text-secondary transition-colors">Our Products</a></li>
+              <li><a href="/equity_group_website/#/portfolio" className="hover:text-secondary transition-colors">Portfolio</a></li>
             </ul>
           </div>
 
