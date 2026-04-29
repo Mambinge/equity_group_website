@@ -149,7 +149,7 @@ const Services = () => {
             <section className="py-12 border-t border-gray-100">
         <div className="max-w-4xl mx-auto px-4 text-center">
            <h2 className="text-2xl font-bold text-primary mb-8 italic">"Now let us make something awesome together"</h2>
-           <button className="btn-primary">Connect with us</button>
+           <Link to="/contact"><button className="btn-primary">Connect with us</button></Link>
         </div>
       </section>
     </PageLayout>

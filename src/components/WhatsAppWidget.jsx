@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const WhatsAppWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const phoneNumber = "263773417514";
+  const phoneNumber = "263772521154";
   const message = "Hi Equity Groups team, I'd like to learn more about your services.";
 
   const handleWhatsAppRedirect = () => {

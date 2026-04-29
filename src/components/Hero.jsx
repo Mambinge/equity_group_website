@@ -39,10 +39,10 @@ const Hero = () => {
                   <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
                 </button>
               </Link>
-              <button className="px-6 py-3 border border-white/20 text-white font-semibold rounded-lg hover:bg-white/10 transition-all flex items-center justify-center space-x-2">
+              {/* <button className="px-6 py-3 border border-white/20 text-white font-semibold rounded-lg hover:bg-white/10 transition-all flex items-center justify-center space-x-2">
                 <Play size={18} fill="white" />
                 <span>Watch Demo</span>
-              </button>
+              </button> */}
             </div>
           </motion.div>
 
